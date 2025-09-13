@@ -1,0 +1,143 @@
+/* Global container */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d47a1;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.subtitle-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1565c0;
+}
+
+/* Drag drop box */
+.drag-drop {
+  background: #1976d2;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 60%;
+  transition: all 0.3s ease-in-out;
+}
+.drag-drop:hover {
+  background: #1565c0;
+  transform: scale(1.02);
+}
+
+/* Content */
+.content {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  width: 60%;
+  max-width: 600px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Textarea */
+.email-textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border: 2px solid #1976d2;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  outline: none;
+  resize: none;
+  transition: border 0.3s;
+}
+.email-textarea:focus {
+  border-color: #0d47a1;
+  box-shadow: 0px 0px 6px rgba(13, 71, 161, 0.5);
+}
+
+/* File upload */
+.file-upload {
+  margin: 15px 0;
+}
+.file-input {
+  border: 2px dashed #1976d2;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80%;
+  background: #f1f8ff;
+}
+.file-input:hover {
+  background: #e3f2fd;
+}
+
+.file-count {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #0d47a1;
+}
+
+/* Send button */
+.send-btn {
+  margin-top: 15px;
+  background: linear-gradient(135deg, #1976d2, #0d47a1);
+  color: white;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(25, 118, 210, 0.4);
+}
+.send-btn:hover {
+  background: linear-gradient(135deg, #1565c0, #0d47a1);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 14px rgba(25, 118, 210, 0.6);
+}
+.send-btn:disabled {
+  background: #90caf9;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 40px;
+}
+.footer-dark {
+  background: #1565c0;
+}
+.footer-light {
+  background: #90caf9;
+}
